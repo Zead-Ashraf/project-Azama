@@ -1,0 +1,66 @@
+font-family: 'Dancing Script', cursive;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Playfair Display', serif;
+
+
+
+
+
+
+
+
+
+
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: black;
+}
+
+h1{
+    font-family: 'Shadows Into Light', cursive;
+    display: inline;
+    font-size: 1.7rem;
+    position: absolute;
+    margin-top: .5em;
+    margin-left: .5em;
+}
+
+
+header {
+    width: 100%;
+    top:0;
+    left: 0;
+    position: absolute;
+    background-color: hsl(153, 60%, 56%);
+}
+
+
+
+
+
+header img {
+    width:74px; 
+    height:64px;
+}
+
+
+
+
+ul {
+    text-decoration-style: none;
+    display: inline;
+    width: 50%;
+    float: right;
+    margin-top: 1.9em;
+    
+}
+
+
+li{
+    display: inline;
+    margin-left: .5em;
+}
