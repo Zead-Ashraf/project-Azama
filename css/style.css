@@ -4,13 +4,20 @@ font-family: 'Playfair Display', serif;
 
 
 
+
+
+
+
+
+
+
+
 html {
     font-size: 62.5%;
 }
 
 body {
     background-color: black;
-    
 }
 
 h1{
@@ -32,10 +39,15 @@ header {
 }
 
 
+
+
+
 header img {
     width:74px; 
     height:64px;
 }
+
+
 
 
 ul {
@@ -51,12 +63,4 @@ ul {
 li{
     display: inline;
     margin-left: .5em;
-}
-h2 {
-    color: aliceblue;
-}
-.sec {
-    height: 100vh;
-    display: grid;  
-      
 }
