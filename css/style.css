@@ -1,66 +1,129 @@
-font-family: 'Dancing Script', cursive;
-font-family: 'Josefin Sans', sans-serif;
-font-family: 'Playfair Display', serif;
-
-
-
-
-
-
-
-
-
-
-
 html {
     font-size: 62.5%;
 }
 
 body {
-    background-color: black;
+    background-image: url("../img/home/background.jpg");
+    background-repeat: no-repeat;
+    background-size: 1279px;
 }
 
+/******************************start header*****************************/
 h1{
     font-family: 'Shadows Into Light', cursive;
     display: inline;
-    font-size: 1.7rem;
+    font-size: 3.7rem;
     position: absolute;
-    margin-top: .5em;
+    margin-top: .4em;
     margin-left: .5em;
+    color: #ffffffff;
 }
 
 
-header {
+header{
     width: 100%;
     top:0;
     left: 0;
     position: absolute;
-    background-color: hsl(153, 60%, 56%);
+    background-color: #00000000;
 }
 
 
 
 
 
-header img {
-    width:74px; 
-    height:64px;
+header img , .space img {
+    width: 84px;
+    height: 79px;
+    border-radius: 50%;
 }
 
 
 
 
 ul {
-    text-decoration-style: none;
-    display: inline;
-    width: 50%;
-    float: right;
-    margin-top: 1.9em;
-    
+    width: 34%;
+    margin-top: 3.2em;
+
 }
 
 
 li{
+    font-size: 2rem;
     display: inline;
-    margin-left: .5em;
+    margin-left: 1em;
 }
+
+
+
+
+header ul li a , .space ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+
+header ul li a:hover , .space ul li a:hover {
+    font-size: 1rem;
+}
+
+header ul li a:active , .space ul li a:active {
+    color: cyan;
+    font-size: 2.5rem;
+    border: 2px dashed cyan;
+    padding: .2em;
+}
+
+header ul li a:visited , .space ul li a:visited {
+    color: gray;
+}
+
+.space {
+    width: 100%;
+    visibility: hidden;
+    margin-top: 7em;
+
+}
+
+
+
+/***********************finish header **************************/
+
+
+.book {
+    display: inline;
+    width: 23.33333333%;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+.book img {
+    width: 270px;
+    height: 350px;
+}
+
+
+h2 {
+    font-size: 2.5rem;
+    color: white;
+    text-align: center;
+}
+
+
+
+
+/**********************start framework**************************/
+
+.float-left{
+    float: left;
+}
+
+
+.float-right {
+    float: right;
+}
+
+
+
+/****************************end framework******************/
+
