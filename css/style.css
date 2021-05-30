@@ -4,7 +4,6 @@ html {
 
 body {
     background-image: url("../img/home/background.jpg");
-    background-repeat: no-repeat;
     background-size: 1279px;
 }
 
@@ -97,7 +96,7 @@ header ul li a:visited , .space ul li a:visited {
     margin-left: 5%;
 }
 
-.book img {
+.book .img img , .book .img .overlay {
     width: 270px;
     height: 350px;
 }
@@ -105,12 +104,28 @@ header ul li a:visited , .space ul li a:visited {
 
 h2 {
     font-size: 2.5rem;
-    color: white;
+    color: #f2e4c9;
     text-align: center;
+    margin: 2em 0 2em 0;
+}
+
+.book .img .overlay:hover {
+    background-color: #ccdcde33; 
 }
 
 
+.book .img .overlay {
+    position: absolute;
+}
 
+
+.book a {
+    text-decoration: none;
+}
+
+.book a h2:hover {
+    font-size: 1.5rem;
+}
 
 /**********************start framework**************************/
 
